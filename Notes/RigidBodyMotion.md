@@ -11,6 +11,8 @@ There are 3 cases of Rigid Body Motion:
 2. Fixed Axis Rotation - Body restricted to rotational motion about a designated axis
 3. General Plane Motion - Motion is a combination of translation and rotation
 
+> General Plane Motion is covered in a separate file
+
 ## Pure Translation
 
 Pure Translation (PT) means no rotation - All lines in the body remain in fixed directions during the motion. All points in the body have the same velocity and acceleration during the motion.
@@ -26,7 +28,7 @@ Pure Translation (PT) means no rotation - All lines in the body remain in fixed 
 <p style = "text-align: center;"><b>Sum of moments about any point = 0</b></p>
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/pt.png" width="250"/>
+    <img src="../Images/Rigid/pt.png" width="250"/>
 </p>
 
 Acceleration is the same for all particles:
@@ -83,7 +85,7 @@ The external forces will include will include forces at the pivot point. The sys
 ### Proof of FAR
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/pt_proof.png" width="250"/>
+    <img src="../Images/Rigid/pt_proof.png" width="250"/>
 </p>
 
 O is the fixed point. Let $\Omega$ and $\alpha$ represent angular motion in the direction of resultant moment due to $P_1$ and $P_2$. Let dm be a mass particle at radius $r$. Inertia forces are:
@@ -147,7 +149,7 @@ where M is the body mass and d is the perpendicular distance between the paralle
 Consider an element of mass dm distances r and R from the axsi passing through G and C:
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/pat_proof.png" width="250"/>
+    <img src="../Images/Rigid/pat_proof.png" width="250"/>
 </p>
 
 Using the cosine law ($R^2 = r^2 + d^2 +  2rd \ cos\theta$):
@@ -175,7 +177,7 @@ $$I_z = I_x + I_y$$
 #### <u>Proof of Perpendicular Axis Theorem</u>
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/perp_proof.png" width="250"/>
+    <img src="../Images/Rigid/perp_proof.png" width="250"/>
 </p>
 
 Moment of Inertia of particle of mass dm about Oz can be broken into components along Ox and Oy:
@@ -191,7 +193,7 @@ $$I_z = I_x + I_y$$
 1. Moment of Inertia of a bar about a transverse axis through G:
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/using_par.png" width="400"/>
+    <img src="../Images/Rigid/using_par.png" width="400"/>
 </p>
 
 $$I_A = \frac{ML^2}{3}$$
@@ -203,7 +205,7 @@ $$I_G = I_A - \frac{ML^2}{4} = \frac{ML^2}{12}$$
 2. Moment of Inertia of a Circular Disc about a Diameter
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/using_perp.png" width="250"/>
+    <img src="../Images/Rigid/using_perp.png" width="250"/>
 </p>
 
 $$I_z = \frac{1}{2}MR^2$$
@@ -215,7 +217,7 @@ $$I_x = \frac{I_z}{2} = \frac{1}{4}MR^2$$
 3. Moments of Inertia of a Steel Ring for a point on the circumference
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/steel_ring.png" width="250"/>
+    <img src="../Images/Rigid/steel_ring.png" width="250"/>
 </p>
 
 $$I_{GZ} = MR^2 = I_{GX} + I_{GY}$$
@@ -245,7 +247,7 @@ For a uniform disc of radius R about the centre, $I_o = \frac{1}{2}MR^2$. The Ra
 Friction drives operate on the basis that there is sufficient perpendicular reaction between  the wheels to allow efficient transfer of power between the wheels.
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/friction_drive.png" width="250"/>
+    <img src="../Images/Rigid/friction_drive.png" width="250"/>
 </p>
 
 For no slipping there must be no relative motion at the contact point. hence the tangential velocities of the two discs must be equal:
@@ -261,7 +263,7 @@ $$\alpha_2 = \frac{R_1}{R_2} \alpha_1 \qquad \textrm{and} \qquad \Omega_2 = \fra
 Belt drives are similar to Friction Drives, but to prevent excessive stretching or slacking of the belt the tangential velocities of the loads must equal that of the motor.
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/belt_drive.png" width="250"/>
+    <img src="../Images/Rigid/belt_drive.png" width="250"/>
 </p>
 
 Hence
@@ -273,7 +275,7 @@ $$R_m\Omega_m = R_1\Omega_1 = R_2\Omega_2$$
 Gear teeth are designed and manufactured carefully to achieve as close to uniform transmission of rotary motion as possible from the drive gear to the driven gear wheel. Perfect gear wheels in mesh may be represented simply as two circular discs in perfect rolling contact with no slip.
 
 <p align="center">
-    <img src="../Images/RigidBodyMotion/meshed_gears.png" width="250"/>
+    <img src="../Images/Rigid/meshed_gears.png" width="250"/>
 </p>
 
 The circular pitch of the teeth must be identical:

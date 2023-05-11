@@ -2,7 +2,7 @@
 
 ## Particles in Circular Motion
 
-For particles with constant radius moving in a circular path we can apply D'Alambert giving the following components:
+For particles with constant radius moving in a circular path we can apply D'Alembert giving the following components:
 
 <p align="center">
     <img src="../Images/CircularMotion/Dalambert_Components.png" width="250"/>
