@@ -8,4 +8,5 @@
 
 - [General Plane Motion](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/GeneralPlaneMotion.md)
 
+- [Work - Energy Approach](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/WorkEnergy.md)
 
