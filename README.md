@@ -1,12 +1,13 @@
-# Dynamics2-Notes
+# Dynamics 2 Notes
 
-- [Particle Motion](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/ParticleMotion.md)
+- [Particle Motion](./Notes/ParticleMotion.md)
 
-- [Systems of Bodies (Centre of G)](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/SystemsOfBodies.md)
+- [Systems of Bodies (Centre of G)](./Notes/SystemsOfBodies.md)
 
-- [Rigid Body Motion](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/RigidBodyMotion.md)
+- [Rigid Body Motion](./Notes/RigidBodyMotion.md)
 
-- [General Plane Motion](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/GeneralPlaneMotion.md)
+- [General Plane Motion](./Notes/GeneralPlaneMotion.md)
 
-- [Work - Energy Approach](https://github.com/tommyj0/Dynamics2-Notes/tree/main/Notes/WorkEnergy.md)
+- [Work - Energy Approach](./Notes/WorkEnergy.md)
 
+- [Oscillatory Motion](./Notes/Oscillatory.md)

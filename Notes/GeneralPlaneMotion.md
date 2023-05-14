@@ -30,7 +30,7 @@ $$\frac{d^2\theta}{dt^2} \quad \textrm{or} \quad \ddot{\theta}$$
 
 ## Acceleration Components of an Arbitrary Point
 
-We choose G as a reference point for the motion. Let A be any other pouint. GA makes an instantaneous angle $\theta$ with the reference direction Ox.
+We choose G as a reference point for the motion. Let A be any other point. GA makes an instantaneous angle $\theta$ with the reference direction Ox.
 
 Let:
 
@@ -114,4 +114,6 @@ Similarly for acceleration:
 For no slip at A:
 
 $$a - R\alpha = 0 \quad \textrm{so} \quad a = R\alpha$$
+
+> Pure rolling is possible if $F < F_{max}$
 
